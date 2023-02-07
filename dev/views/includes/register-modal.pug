@@ -1,0 +1,16 @@
+#register-modal.lightbox
+    form#register-form.form
+        .form__field
+            label(for="register-name").form__label Name
+            input(type="text", name="name")#register-name.form__intput
+        .form__field
+            label(for="register-email").form__label Email
+            input(type="email", name="email")#register-email.form__intput
+        .form__field
+            label(for="register-pasword").form__label Pasword
+            input(type="password", name="pasword")#register-pasword.form__intput
+        .form__field
+            label(for="register-pasword-2").form__label Repeat pasword
+            input(type="password", name="pasword")#register-repeatpasword.form__intput
+        .form__field
+            input(type="submit", name="button", value="send").form__submit
