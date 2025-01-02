@@ -32,5 +32,8 @@
     "node-sass": "^8.0.0",
     "pug": "^3.0.2",
     "sass": "^1.58.1"
+  },
+  "dependencies": {
+    "web-photography-basic": "file:"
   }
 }
